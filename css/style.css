@@ -352,8 +352,8 @@
 	}
 
 	.image-square {
-		height: 400px;
-		width: 400px;
+		height: 340px;
+		width: 340px;
 		background-size: contain;
 		display: inline-block;
 		margin: 0;
@@ -361,7 +361,7 @@
 	}
 
 	.image-square:nth-of-type(1) {
-		background: url("../images/gallery/image01.jpg") no-repeat;
+		background: url("../images/gallery/image04.jpg") no-repeat;
 		background-size: contain;
 	}
 
@@ -376,7 +376,7 @@
 	}
 
 	.image-square:nth-of-type(4) {
-		background: url("../images/gallery/image04.jpg") no-repeat;
+		background: url("../images/gallery/image01.jpg") no-repeat;
 		background-size: contain;
 	}
 
@@ -759,6 +759,7 @@
 	.portfolio-list li {
 		width: 80%;
 	}
+
 }
 
 
