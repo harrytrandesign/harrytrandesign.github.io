@@ -53,6 +53,10 @@
 		color: #92B976;		
 	}
 
+	.app-name-label {
+		color: #fff;		
+	}
+
 	#skill-header ul li,
 	#plus-sign {
 		font-weight: 700;
@@ -140,6 +144,31 @@
 		background-size: contain;
 	}
 
+	#android-apps {
+		width: 100%;
+	}
+
+	#slick-note {
+		background: rgb(186,104,200);
+	}
+
+	#work-ramble {
+		background: rgb(121,134,203);
+	}
+
+	#slick-note,
+	#work-ramble {
+		padding: 80px 20px;
+	}
+
+	#android-app-1 {
+		background: url("../images/slick_notes_ss_small.png");
+	}
+
+	#android-app-2 {
+		background: url("../images/work_rant_ss_small.png");
+	}
+
 	#project-1 {
 		background: url("../images/portfolio/short_notes.png");
 	}
@@ -155,6 +184,15 @@
 
 	#project-4 {
 		background: url("../images/portfolio/edcgifts.png");		
+	}
+
+	#android-app-1,
+	#android-app-2 {
+		width: 300px;
+		height: 400px;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin: 20px auto;
 	}
 
 	#project-1,

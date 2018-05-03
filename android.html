@@ -56,110 +56,34 @@
 		<!-- END NAVBAR SECTION -->
 
 		<div id="project-overview" class="container">
-			<h1 class="text-capitalize">My web and mobile projects</h1>
-			<h4>See some of my work as a developer</h4>
+			<h1 class="text-capitalize">Android Apps</h1>
+			<h4>Android apps I have developed and the story behind them</h4>
 		</div>
 
 
-		<div class="container">
-			<div id="project-jumbotron" class="jumbotron">
-				<div class="dark-overlay"></div>
-			</div>
-		</div>
-
-
-		<div class="container">
-			<div class="text-center">
-				<h4 class="text-capitalize">See My Projects Live</h4>
-
-				<a href="https://play.google.com/store/apps/developer?id=HTDWPS"><img class="img-responsive google-play" src="images/google-play-badge.png" alt="Google Play button"></a>
-			</div>
-		</div>
-
-
-		<hr>
-
-
-		<div class="container">
-			<div class="row">
+		<div id="android-apps" class="container">
+			<div id="slick-note" class="row app-name-label">
 				<div class="col-lg-5">
-					<div id="project-1"></div>
+					<div id="android-app-1"></div>
 				</div>
 				<div class="col-lg-7">
-					<h6 class="tint text-uppercase">Short Notes Application (Android)</h6>
-					<p>Short Note was created out of a need to have a light weight note taking application that would just work out of the box without the need for an internet connection and good reception. Shorter notes meant that each note had to be condensed down to the essential message without extra fluff. Each message is only 200 characters maximum, originally the concept was to only allow 7 notes at any given time with a feature to delete all notes at once, something that I find useful because many notes stay dormant longer than their useful life. But that was later changed due to the request of several of our users. </p>
-					<ul class="portfolio-list">
-						<li class="hover-tag"><div>Android Studio</div></li>
-						<li class="hover-tag"><div>Persistent Storage</div></li>
-						<li class="hover-tag"><div>Java &amp; XML</div></li>
-						<li class="hover-tag"><div>UX/UI Design</div></li>
-						<li class="hover-tag"><div>Material Design</div></li>
-					</ul>
+					<h6 class="text-uppercase">Slick Notes</h6>
+					<p>Slick Notes was designed with ease of use in mind. We opted to remove any unnecessary steps for the user to create an account and quickly log on to start keeping track of their notes. Using the Firebase Authentication Library we were able to implement a one touch Google Sign On that takes care of all the username and password fields for our user. All notes are securely stored on the Firebase Cloud database, each individual note is encrypted before being sent to the database and decrypted by the client's device. Because each note is encrypted first, your notes are secure from prying eyes. The UI is a simple and takes cues from Google's Material Design language guide. Notes are concatenated onto the same line in order to save space, the use of white space helps the user determine what every function does. Adding a dark mode allows our users to use the app while in the dark without having their screen's emit too much light.</p>
+
 				</div>
 			</div>
 
-
-			<hr>
-
-
-			<div class="row">
+			<div id="work-ramble" class="row app-name-label">
 				<div class="col-lg-5 push-lg-7">
-					<div id="project-2"></div>
+					<div id="android-app-2"></div>
 				</div>
 				<div class="col-lg-7 pull-lg-5">
-					<h6 class="tint text-uppercase">LOLPETS Application (Android)</h6>
-					<p>LOLPETS is an app designed out of my passion and love for my dogs. I wanted to share pictures of my dogs doing silly things on a platform that wasn't also showing images of landscape, fashion, and other topics. A more simple, straight forward pet sharing platform makes things flatter and less convoluted. The app takes pieces out of Google's Material Design elements, and uses Firebase Backend-as-a-Service to store and display data while using RecyclerViews to scroll through Objects.</p>
-					<ul class="portfolio-list">
-						<li class="hover-tag"><div>Android Studio</div></li>
-						<li class="hover-tag"><div>Firebase Realtime Database</div></li>
-						<li class="hover-tag"><div>User Authentication</div></li>
-						<li class="hover-tag"><div>Cloud Storage</div></li>
-						<li class="hover-tag"><div>Photo Upload</div></li>
-						<li class="hover-tag"><div>UX/UI Design</div></li>
-					</ul>
+					<h6 class="text-uppercase">Work Ramble</h6>
+					<p>Work Ramble came to me from an idea that a person needs a safe space to rant without any implications to their career. Using Firebase Cloud integration, we were able to build our system on top of their Realtime Database service,  posts, messages, and comments are instantly updated on all users devices as soon as it is sent to the server. Messages are displayed with card views and recycler views following Google's Material Design guidelines. The use of a navigation drawer menu keeps different threads easy to access and intuitive for the user to pick up the app and use right away.</p>
+
 				</div>
 			</div>
 
-
-			<hr>
-
-
-			<div class="row">
-				<div class="col-lg-5">
-					<div id="project-3"></div>
-				</div>
-				<div class="col-lg-7">
-					<h6 class="tint text-uppercase">DacBietPho (Special Pho) Responsive (Webpage)</h6>
-					<p>One of the earliest websites I built out for a client, who wanted a simple, clean, and fresh look for their new restaurant. The intention of their website was to showcase their menu offerings without having too many distractions, and also offer directions and store hours for anyone who needed extra information about the restaurant. Links on the webpage allowed users to contact the restaurant owner directly either through messages or initiating the phone's dialer if the user was viewing the site on a mobile device.</p>
-					<ul class="portfolio-list">
-						<li class="hover-tag"><div>HTML5 &amp; CSS3</div></li>
-						<li class="hover-tag"><div>JQuery</div></li>
-						<li class="hover-tag"><div>UX/UI Design</div></li>
-						<li class="hover-tag"><div>Image Editing</div></li>
-					</ul>
-				</div>
-			</div>
-
-
-			<hr>
-
-
-			<div class="row">
-				<div class="col-lg-5 push-lg-7">
-					<div id="project-4"></div>
-				</div>
-				<div class="col-lg-7 pull-lg-5">
-					<h6 class="tint text-uppercase">EDCGIFTS E-Commerce (Website)</h6>
-					<p>An online e-commerce website built on top of Shopify for a client, the website includes installation of a custom theme and edits, uploading category and product images as well as descriptions for each product. The client was looking for a complete online retail solution, using Shopify allowed them to easily integrate catalog, order processing, and fulfillment in one at a reasonable cost.</p>
-					<ul class="portfolio-list">
-						<li class="hover-tag"><div>Shopify E-Commerce</div></li>
-						<li class="hover-tag"><div>Order Fulfillment  mation</div></li>
-						<li class="hover-tag"><div>Theme Creation</div></li>
-						<li class="hover-tag"><div>MailChimp Integration</div></li>
-						<li class="hover-tag"><div>Image Editing</div></li>
-					</ul>
-				</div>
-			</div>
 		</div>
 
 
