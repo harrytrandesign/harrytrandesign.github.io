@@ -122,7 +122,9 @@
   
   <!-- The core Firebase JS SDK is always required and must be listed first -->
   <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
-
+  <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-firestore.js"></script>
   <!-- TODO: Add SDKs for Firebase products that you want to use
        https://firebase.google.com/docs/web/setup#available-libraries -->
   <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-analytics.js"></script>
@@ -135,14 +137,17 @@
       authDomain: "swipecloth-73f01.firebaseapp.com",
       databaseURL: "https://swipecloth-73f01.firebaseio.com",
       projectId: "swipecloth-73f01",
-      storageBucket: "swipecloth-73f01.appspot.com",
-      messagingSenderId: "981300195248",
       appId: "1:981300195248:web:4f45a16c90881eb0d5b075",
       measurementId: "G-QDZSDBSKVM"
     };
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
     firebase.analytics();
+    // TODO Make auth and firebase references
+    const auth = firebase.auth();
+    const db = firebase.database();
+    db.settings({ timestampsInSnapshots: true});
+
   </script>
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
