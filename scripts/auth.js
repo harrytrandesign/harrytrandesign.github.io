@@ -6,8 +6,8 @@ signupForm.addEventListener('submit', (e) => {
 	e.preventDefault();
 
 	// grab user email + password
-	const userEmail = signupForm['signup-email'].valueOf();
-	const userPassword = signupForm['signup-password'].valueOf();
+	const userEmail = signupForm['signup-email'].value;
+	const userPassword = signupForm['signup-password'].value;
 
 	console.log(userEmail + userPassword);
 })
