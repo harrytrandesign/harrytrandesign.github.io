@@ -13,7 +13,6 @@ signupForm.addEventListener('submit', (e) => {
 
 	// Sign up user into Firebase Auth
 	auth.createUserWithEmailAndPassword(userEmail, userPassword).then(cred => {
-		console.log(cred.user);
 
 		// Close the modal sign up form
 		const modalSignUp = document.querySelector('#modal-signup');
@@ -21,5 +20,17 @@ signupForm.addEventListener('submit', (e) => {
 
 		// Reset the form fields to empty
 		signupForm.reset();
+	});
+});
+
+// Logging out
+const logout = document.querySelector('#logout');
+// Sign out event listener
+logout.addEventListener('click', (e) => {
+	// Prevent default action
+	e.preventDefault();
+
+	auth.signOut().then(() => {
+		console.log("user signed out");
 	})
-})
+});
